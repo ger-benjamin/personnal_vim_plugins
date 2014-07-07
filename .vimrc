@@ -20,3 +20,7 @@ highlight LineNr ctermfg=darkcyan ctermbg=black
 set expandtab
 set shiftwidth=4
 set softtabstop=4
+
+"max columns 100
+highlight OverLength ctermfg=darkred ctermbg=black guibg=#FFD9D9
+match OverLength /\%>99v.\+/ 
