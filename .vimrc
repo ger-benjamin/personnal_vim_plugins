@@ -21,6 +21,6 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 
-"max columns 100
-highlight OverLength ctermfg=darkred ctermbg=black guibg=#FFD9D9
-match OverLength /\%>99v.\+/ 
+"highlight columns 81"
+set colorcolumn=81
+highlight ColorColumn ctermbg=89
